@@ -28,7 +28,7 @@ springBoot {
 // Jib 플러그인 설정
 jib {
 	to {
-		image = "hoijookim/${project.name}:s9"
+		image = "hoijookim/${project.name}:s10"
 	}
 }
 
@@ -38,6 +38,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j'
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'

@@ -28,7 +28,7 @@ springBoot {
 // Jib 플러그인 설정
 jib {
 	to {
-		image = "hoijookim/${project.name}:s9"
+		image = "hoijookim/${project.name}:s10"
 	}
 }
 
